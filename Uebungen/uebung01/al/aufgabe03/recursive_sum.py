@@ -6,8 +6,10 @@
 def recursive_sum(n):
   
   # TODO: Implement here...
-  pass
-  
+  if n == 1:
+    return 1
+  else:
+    return n + recursive_sum(n-1)  
   
 if __name__ == '__main__':  
   
