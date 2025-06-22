@@ -3,8 +3,8 @@
 # Path   : uebung03/al/aufgabe02
 # Version: Sun Mar  2 12:51:33 CET 2025
 
-from uebung03.al.aufgabe02.vector_tree import VectorTree
-from uebung03.al.aufgabe02.vector_tree import NoSuchNodeException
+from vector_tree import VectorTree
+from vector_tree import NoSuchNodeException
 
 if __name__ == '__main__':
   
