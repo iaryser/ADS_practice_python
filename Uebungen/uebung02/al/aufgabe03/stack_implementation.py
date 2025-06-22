@@ -3,7 +3,7 @@
 # Path   : uebung02/al/aufgabe03
 # Version: Sun Feb 23 20:28:21 CET 2025
 
-from uebung02.al.aufgabe03.empty_stack_exception import EmptyStackException
+from empty_stack_exception import EmptyStackException
 import sys
 
 
@@ -40,23 +40,33 @@ class StackImplementation:
   
   def size(self):
     # TODO: Implement here...
-    pass
+    return self._size
 
   def is_empty(self):
     # TODO: Implement here...
-    return True
+    return self._size == 0
   
   def top(self):
     # TODO: Implement here...
-    return None
+    if self.is_empty():
+      raise EmptyStackException("Stack is empty!")
+    return self._top.get_element()
   
   def push(self, element):
     # TODO: Implement here...
-    pass
+    new_node = self._Node(element)
+    new_node.append_node(self._top)
+    self._top = new_node
+    self._size += 1
     
   def pop(self):
     # TODO: Implement here...
-    return None
+    if self._size == 0:
+      raise EmptyStackException("Could not remove top of stack because stack is empty!")
+    top_node = self._top
+    self._top = top_node.get_next() #Garbage collector gets rid of unreferenced old self._top!
+    self._size -= 1
+    return top_node.get_element()
   
   def printout(self):
     print("Stack: (", self._to_string(self._top, ""), ")")

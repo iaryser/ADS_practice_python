@@ -6,13 +6,13 @@
 
 class Node: 
 
-  def __init__(self, e = None, p = None, n = None):
-    self._element = e
-    self._next = n
-    self._prev = p
+  def __init__(self, element = None, previous = None, nxt = None):
+    self._element = element
+    self._prev = previous
+    self._next = nxt
         
   def set_element(self, new_elem):
-    _element = new_elem
+    self._element = new_elem
   
   def set_next(self, new_next):
     self._next = new_next

@@ -3,8 +3,8 @@
 # Path   : uebung02/al/aufgabe02
 # Version: Sun Feb 23 20:27:43 CET 2025
 
-from uebung02.al.aufgabe02.node import Node
-from uebung02.al.aufgabe02.dequeue_empty_exception import DequeEmptyException
+from node import Node
+from dequeue_empty_exception import DequeEmptyException
 
 
 class DequeImplementation:
@@ -39,37 +39,53 @@ class DequeImplementation:
   def remove_first(self): 
   
     # TODO: Implement here...
-    pass
+    if self.is_empty():
+      raise DequeEmptyException("Deque is empty!")
+    first = self._header.get_next()
+    e = first.get_element()
+    second = first.get_next()
+    self._header.set_next(second)
+    second.set_prev(self._header)
+    self._size -= 1
+    return e
   
     
   def insert_last(self, element):
   
     # TODO: Implement here...
-    pass
+    secondtolast = self._trailer.get_prev()
+    last = Node(element, secondtolast, self._trailer)
+    secondtolast.set_next(last)
+    self._trailer.set_prev(last)
+    self._size += 1
   
     
   def first(self): 
   
     # TODO: Implement here...
-    pass
+    if self.is_empty():
+      raise DequeEmptyException("Deque is empty!")
+    return self._header.get_next().get_element()
   
     
   def last(self): 
   
     # TODO: Implement here...
-    pass
+    return self._trailer.get_prev().get_element()
   
     
   def size(self):
   
     # TODO: Implement here...
-    pass
+    if self.is_empty():
+      raise DequeEmptyException("Deque is empty!")
+    return self._size
   
     
   def is_empty(self):
   
     # TODO: Implement here...
-    pass
+    return self.size == 0
   
   
   def __str__(self):
