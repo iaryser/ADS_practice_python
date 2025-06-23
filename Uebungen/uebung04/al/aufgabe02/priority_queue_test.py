@@ -6,8 +6,7 @@
 import sys
 import random
 from queue import PriorityQueue as PythonPQ
-from uebung04.al.aufgabe02.priority_queue_adv import PriorityQueueADV
-from uebung04.al.aufgabe02.priority_queue import PriorityQueue
+from priority_queue import PriorityQueue
 
 
 def stress_test():

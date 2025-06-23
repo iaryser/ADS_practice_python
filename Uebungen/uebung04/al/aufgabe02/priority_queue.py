@@ -4,7 +4,7 @@
 # Version: Sun Mar  9 19:25:53 CET 2025
 
 import functools
-from uebung04.al.aufgabe02.full_priority_queue_exception import FullPriorityQueueException
+from full_priority_queue_exception import FullPriorityQueueException
 
 
 class PriorityQueue:
@@ -52,24 +52,28 @@ class PriorityQueue:
     self._heap_array[self._last] = e
     
     # TODO: Implement here...
-    
-    return e
+    self._upheap(self._last)
   
   def min(self):
     # TODO: Implement here...
-    return None
+    return self._heap_array[1]
 
   def remove_min(self):
     # TODO: Implement here...
-    return None
+    e = self._heap_array[1]
+    self._heap_array[1] = self._heap_array[self._last]
+    self._heap_array[self._last] = None
+    self._last -= 1
+    self._downheap(1)
+    return e
   
   def is_empty(self):
     # TODO: Implement here...
-    return True
+    return self.size() == 0
   
   def size(self):
     # TODO: Implement here...
-    return -1
+    return self._last
   
   def print(self):
     print(self.__str__())
@@ -95,14 +99,32 @@ class PriorityQueue:
     childIndex Index of the child-node.
     """
     # TODO: Implement here...
-    pass
+    temp = self._heap_array[parent_index]
+    self._heap_array[parent_index] = self._heap_array[child_index]
+    self._heap_array[child_index] = temp
 
   def _upheap(self, current_index):
     # TODO: Implement here...
-    pass
+    if current_index > 1:
+      parent_index = current_index // 2
+      if self._heap_array[current_index].get_key() < self._heap_array[parent_index].get_key():
+        self._swap(parent_index, current_index)
+        self._upheap(parent_index)
 
   def _downheap(self, current_index):
     # TODO: Implement here...
-    pass
+    left = current_index * 2
+    right = current_index * 2 + 1
+    smallest = current_index
+    
+    if left <= self._last and self._heap_array[left].get_key() < self._heap_array[smallest].get_key():
+      smallest = left
+    
+    if right <= self._last and self._heap_array[right].get_key() < self._heap_array[smallest].get_key():
+      smallest = right
+    
+    if smallest != current_index:
+      self._swap(current_index, smallest)
+      self._downheap(smallest)
   
   
