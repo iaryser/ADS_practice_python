@@ -3,7 +3,7 @@
 # Path   : uebung05/al/aufgabe01
 # Version: Mon Mar 17 10:49:24 CET 2025
 
-from uebung05.al.aufgabe01.map_impl import MapImpl
+from map_impl import MapImpl
 
 
 if __name__ == '__main__':
