@@ -21,15 +21,16 @@ def merge_sort(s):
     s1, s2 = partition(s, n//2)
     
     # TODO: Implement here...
-    
+    s1 = merge_sort(s1)
+    s2 = merge_sort(s2)
+    return merge(s1, s2)
   return s
 
 
 def partition(s, n):
   
   # TODO: Implement here...
-  
-  return None
+  return s[:n], s[n:]
   
   
 def merge(a, b):
@@ -40,8 +41,24 @@ def merge(a, b):
   si = 0  # Last element in 'sequence' S
   
   # TODO: Implement here...
-  
-  return s 
+  while not ai == len(a) and not bi == len(b):
+    if a[ai] < b[bi]:
+      s[si] = a[ai]
+      si += 1
+      ai += 1
+    else:
+      s[si] = b[bi]
+      si += 1
+      bi += 1
+  while not ai == len(a):
+    s[si] = a[ai]
+    si += 1
+    ai += 1
+  while not bi == len(b):
+    s[si] = b[bi]
+    si += 1
+    bi += 1
+  return s
 
 
 def verify(orginalData, sortedData):
