@@ -75,9 +75,13 @@ class BinarySearchTree:
     """
     
     # TODO: Implement here...
+    if node.is_external():
+      return -1
+    else:
+      left_height = self._height(node.get_left())
+      right_height = self._height(node.get_right())
+      return 1 + max(left_height, right_height)
     
-    return -2
-
   def find(self, key):
     """
     Searches for key in the tree. 
@@ -87,7 +91,9 @@ class BinarySearchTree:
     """
     
     # TODO: Implement here...
-    
+    node = self._search(key, self._root)
+    if not node.is_external():
+      return node.get_value()
     return None
   
   def _search(self, key, node):
@@ -101,8 +107,14 @@ class BinarySearchTree:
     """
     
     # TODO: Implement here...
-    
-    return None
+    if node.is_external():
+      return node
+    if key < node.get_key():
+      return self._search(key, node.get_left())
+    elif key == node.get_key():
+      return node
+    elif key > node.get_key():
+      return self._search(key, node.get_right())
   
   def insert(self, key, value):
     """
@@ -116,13 +128,11 @@ class BinarySearchTree:
       
       
   def _insert_but_wrong(self, key, value, node):
-    if node.get_left().is_external():
-      node.get_left().convert_to_internal_node(key, value)
-      return 
-    if node.get_right().is_external():
-      node.get_right().convert_to_internal_node(key, value)
-      return 
-    self._insert_but_wrong(key, value, node.get_right())
+    node = self._search(key, node)
+    if node.is_external():
+      node.convert_to_internal_node(key, value)
+    else:
+      node.set_value(value)
       
       
       
