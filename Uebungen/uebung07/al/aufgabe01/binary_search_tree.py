@@ -148,14 +148,33 @@ class BinarySearchTree:
   def _inorder(self, node, inorderString):
     
     # TODO: Implement here...
-    
-    return ""
+    if not node.get_left().is_external():
+      inorderString = self._inorder(node.get_left(), inorderString)
+    inorderString += f'({node.get_key()}/{node.get_value()}) '
+    if not node.get_right().is_external():
+      inorderString = self._inorder(node.get_right(), inorderString)
+    return inorderString
   
   def remove(self, key):
     
-    # TODO: Implement here...
-    
-    return ""
+  # TODO: Implement here...
+    path_to_root = []
+    node_to_delete = self._search(key, self._root, path_to_root)
+    if node_to_delete.is_external():
+        return None
+
+    if node_to_delete.get_left().is_external():
+        return self._removeExternal(node_to_delete.get_left(), path_to_root)
+    elif node_to_delete.get_right().is_external():
+        return self._removeExternal(node_to_delete.get_right(), path_to_root)
+    else:
+      v = node_to_delete
+      value = node_to_delete.get_value()
+      w = self._max(node_to_delete.get_left(), path_to_root)
+      v.set_value(w.get_value())
+      v.set_key(w.get_key())
+      self._removeExternal(w.get_right(), path_to_root)
+      return value
 
   def _removeExternal(self, external_node, path_to_root):
     """
@@ -167,8 +186,27 @@ class BinarySearchTree:
     """
     
     # TODO: Implement here...
+    node_to_delete = path_to_root[0]
+    if node_to_delete == self._root:
+      parent = None
+    else:
+      parent = path_to_root[1]
+  
+
+    if node_to_delete.get_left() == external_node:
+      sibling = node_to_delete.get_right()
+    else:
+      sibling = node_to_delete.get_left()
+    if node_to_delete != self._root:
+      if parent.get_left() == node_to_delete:
+        parent.set_left(sibling)
+      else:
+        parent.set_right(sibling)
+    else: #we're removing root
+      self._root = sibling
+    return node_to_delete.get_value()
     
-    return None
+      
 
   def _max(self, subtree_root, path_to_root):
     """
@@ -180,6 +218,7 @@ class BinarySearchTree:
     """
     
     # TODO: Implement here...
-    
-    return None
-
+    if subtree_root.is_external():
+      return path_to_root[0]
+    path_to_root.insert(0, subtree_root)
+    return self._max(subtree_root.get_right(), path_to_root) #Going deeper into tree but right bc we're looking for max key/node

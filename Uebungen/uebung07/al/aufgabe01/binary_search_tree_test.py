@@ -3,10 +3,10 @@
 # Path   : uebung07/al/aufgabe01
 # Version: Tue Apr  1 10:38:49 CEST 2025
 
-from uebung07.al.aufgabe01.binary_search_tree import BinarySearchTree
-from uebung07.al.aufgabe01.binary_search_tree_adv import BinarySearchTreeADV
-from uebung07.al.aufgabe01.tree_printer import TreePrinterAcc
-from uebung07.al.aufgabe01.tree_printer import TreePrinter
+from binary_search_tree import BinarySearchTree
+# from uebung07.al.aufgabe01.binary_search_tree_adv import BinarySearchTreeADV
+from tree_printer import TreePrinterAcc
+from tree_printer import TreePrinter
 
 if __name__ == '__main__':
   
