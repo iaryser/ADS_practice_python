@@ -3,7 +3,7 @@
 # Path   : uebung10/al/aufgabe02
 # Version: Mon Apr 28 21:48:59 CEST 2025
 
-from uebung10.graphs.graph_impl import GraphImpl
+from graphs.graph_impl import GraphImpl
 
 class Graph:
   
@@ -47,8 +47,13 @@ class Graph:
     self._validate_edge(e)
     
     # TODO: Implement here ...
-    
-    return None
+    u, w = e.endpoints()
+    if v == u:
+      return w
+    elif v == w:
+      return u
+    raise ValueError("Edge is not incident to vertex!")
+
     
   def are_adjacent(self, v, w):
     self._validate_vertex(v)
@@ -57,8 +62,11 @@ class Graph:
     inc_w = self.incident_edges(w)
     
     # TODO: Implement here ...
-    
-    return None
+    for edge in inc_v:
+      if self.opposite(v, edge) == w:
+        return True
+    return False
+
 
   def insert_vertex(self, element):
     v = self._graph.insert_vertex(element)

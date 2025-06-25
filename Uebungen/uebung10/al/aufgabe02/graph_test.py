@@ -4,7 +4,7 @@
 # Version: Mon Apr 28 21:48:59 CEST 2025
 
 import sys
-from uebung10.al.aufgabe02.graph import Graph
+from graph import Graph
 
 
 if __name__ == '__main__':
