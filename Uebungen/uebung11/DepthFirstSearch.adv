@@ -1,0 +1,5145 @@
+{
+  "snapshots": [
+    {
+      "snapshotId": 1,
+      "snapshotDescription": "Initial graph.",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 2,
+      "snapshotDescription": "Visiting vertex: A",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 3,
+      "snapshotDescription": "Investigating edge: A-B",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 4,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 5,
+      "snapshotDescription": "Setting edge \"A-B\" to: DISCOVERY",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 6,
+      "snapshotDescription": "Visiting vertex: B",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 7,
+      "snapshotDescription": "Investigating edge: A-B",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 8,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 9,
+      "snapshotDescription": "Investigating edge: B-C",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 10,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 11,
+      "snapshotDescription": "Setting edge \"B-C\" to: DISCOVERY",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 12,
+      "snapshotDescription": "Visiting vertex: C",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 13,
+      "snapshotDescription": "Investigating edge: A-C",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 14,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 15,
+      "snapshotDescription": "Setting edge \"A-C\" to: BACK",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 16,
+      "snapshotDescription": "Investigating edge: B-C",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 17,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 18,
+      "snapshotDescription": "Investigating edge: C-D",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 19,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 20,
+      "snapshotDescription": "Setting edge \"C-D\" to: DISCOVERY",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 21,
+      "snapshotDescription": "Visiting vertex: D",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 22,
+      "snapshotDescription": "Investigating edge: A-D",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 23,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 24,
+      "snapshotDescription": "Setting edge \"A-D\" to: BACK",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 25,
+      "snapshotDescription": "Investigating edge: C-D",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 26,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 27,
+      "snapshotDescription": "Investigating edge: C-E",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 28,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 29,
+      "snapshotDescription": "Setting edge \"C-E\" to: DISCOVERY",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 30,
+      "snapshotDescription": "Visiting vertex: E",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 31,
+      "snapshotDescription": "Investigating edge: A-E",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 32,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 33,
+      "snapshotDescription": "Setting edge \"A-E\" to: BACK",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 34,
+      "snapshotDescription": "Investigating edge: C-E",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 35,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 36,
+      "snapshotDescription": "Investigating edge: A-C",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 37,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 38,
+      "snapshotDescription": "Investigating edge: A-D",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 39,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 40,
+      "snapshotDescription": "Investigating edge: A-E",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 16088064,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "snapshotId": 41,
+      "snapshotDescription": "",
+      "moduleGroups": [
+        {
+          "moduleName": "graph",
+          "elements": [
+            {
+              "id": 1,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 100,
+              "content": "A"
+            },
+            {
+              "id": 2,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 0,
+              "fixedPosY": 200,
+              "content": "B"
+            },
+            {
+              "id": 3,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 100,
+              "fixedPosY": 300,
+              "content": "C"
+            },
+            {
+              "id": 4,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 200,
+              "fixedPosY": 200,
+              "content": "D"
+            },
+            {
+              "id": 5,
+              "style": {
+                "fillColor": 8508666,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.5
+              },
+              "fixedPosX": 350,
+              "fixedPosY": 200,
+              "content": "E"
+            }
+          ],
+          "relations": [
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 2
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 10868391,
+                "strokeColor": 3706428,
+                "strokeStyle": "dashed",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 1,
+              "targetElementId": 5
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 2,
+              "targetElementId": 3
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 4
+            },
+            {
+              "isDirected": false,
+              "style": {
+                "fillColor": 15702682,
+                "strokeColor": 13840175,
+                "strokeStyle": "solid",
+                "strokeThickness": 1.0
+              },
+              "sourceElementId": 3,
+              "targetElementId": 5
+            }
+          ],
+          "flags": [],
+          "metaData": {},
+          "position": "DEFAULT"
+        }
+      ]
+    }
+  ],
+  "sessionId": 1574629812944,
+  "sessionName": "Depth-First-Search"
+}
