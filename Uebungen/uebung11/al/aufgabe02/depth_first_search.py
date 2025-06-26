@@ -40,6 +40,15 @@ class DepthFirstSearch:
     self._vertex_map[v] = DepthFirstSearch._VertexLabelDFS.VISITED
     
     # TODO: Implement here ...
+    for edge in graph.incident_edges(v):
+      if self._edge_map[edge] == DepthFirstSearch._EdgeLabelDFS.UNEXPLORED:
+        w = graph.opposite(v, edge)
+        if self._vertex_map[w] == DepthFirstSearch._VertexLabelDFS.UNEXPLORED:
+          self._edge_map[edge] = DepthFirstSearch._EdgeLabelDFS.DISCOVERY
+          self._search(graph, w)
+        else:
+          self._edge_map[edge] = DepthFirstSearch._EdgeLabelDFS.BACK
+      
     
         
   def print_maps(self):        
