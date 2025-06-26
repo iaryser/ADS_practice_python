@@ -22,6 +22,21 @@ class Dijkstra:
     self._apq = self._get_adaptable_priority_queue()
 
     # TODO Implement here ...
+    for v in self._graph.vertices():
+      if v == s:
+        self._distances[v] = 0
+      else:
+        self._distances[v] = float('+inf')
+      l = self._apq.insert(self._distances[v], v)
+      self._locators[v] = l
+    while not self._apq.is_empty():
+      u = self._apq.remove_min().value()
+      for e in self._graph.incident_edges(u):
+        z = self._graph.opposite(u, e)
+        r = self._distances[u] + e.element()
+        if r < self._distances[z]:
+          self._distances[z] = r
+          self._apq.replace_key(self._locators[z], r)
     
           
   def get_graph(self):    
