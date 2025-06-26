@@ -3,7 +3,7 @@
 # Path   : uebung12/graphs
 # Version: Sat Dec  4 18:17:35 CET 2021
 
-from uebung12.graphs.graph_impl import GraphImpl
+from graph_impl import GraphImpl
 
 class Graph:
   

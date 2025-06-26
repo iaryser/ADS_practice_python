@@ -32,13 +32,29 @@ class DirectedDFS:
     self._edge_map = graph.get_edge_map()
     
     # TODO: Implement here...
+    for vertex in graph.vertices():
+      self._vertex_map[vertex] = self._VertexLabel.UNEXPLORED
+    for edge in graph.edges():
+      self._edge_map[edge] = self._EdgeLabel.UNEXPLORED
+    for vertex in graph.vertices():
+      if self._vertex_map[vertex] == self._VertexLabel.UNEXPLORED:
+        self._search(graph, vertex)
+      
 
 
   def _search(self, graph, v):
     print("{:21s}: {}".format("DirectedDFS.search()", str(v)))
     
     # TODO: Implement here...
-      
+    self._vertex_map[v] = self._VertexLabel.VISITED
+    for e in graph.incident_edges(v):
+      if self._edge_map[e] == self._EdgeLabel.UNEXPLORED:
+        w = graph.opposite(v, e)
+        if self._vertex_map[w] == self._VertexLabel.UNEXPLORED:
+          self._edge_map[e] = self._EdgeLabel.DISCOVERY
+          self._search(graph, w)
+        else:
+          self._edge_map[e] = self._EdgeLabel.BACK
       
   def print_maps(self):        
     self._graph.printing_maps(True)
